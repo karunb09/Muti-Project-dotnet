@@ -5858,11 +5858,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\masters\\C#.net\\soulution\\Multiprjct\\tests\\UnitTests\\UnitTests.csproj",
+      "projectUniqueName": "C:\\masters\\C#.net\\solution\\Multiprjct\\tests\\UnitTests\\UnitTests.csproj",
       "projectName": "UnitTests",
-      "projectPath": "C:\\masters\\C#.net\\soulution\\Multiprjct\\tests\\UnitTests\\UnitTests.csproj",
+      "projectPath": "C:\\masters\\C#.net\\solution\\Multiprjct\\tests\\UnitTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\s533900\\.nuget\\packages\\",
-      "outputPath": "C:\\masters\\C#.net\\soulution\\Multiprjct\\tests\\UnitTests\\obj\\",
+      "outputPath": "C:\\masters\\C#.net\\solution\\Multiprjct\\tests\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

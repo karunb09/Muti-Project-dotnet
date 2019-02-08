@@ -28,3 +28,4 @@ C:\masters\C#.net\solution\Multiprjct\src\Web\obj\Debug\netcoreapp2.2\Web.Views.
 C:\masters\C#.net\solution\Multiprjct\src\Web\obj\Debug\netcoreapp2.2\Web.dll
 C:\masters\C#.net\solution\Multiprjct\src\Web\obj\Debug\netcoreapp2.2\Web.pdb
 C:\masters\C#.net\solution\Multiprjct\src\Web\obj\Debug\netcoreapp2.2\Web.csproj.CopyComplete
+C:\masters\C#.net\solution\Multiprjct\src\web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Greetings.g.cshtml.cs

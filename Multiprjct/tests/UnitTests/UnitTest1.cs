@@ -6,7 +6,7 @@ namespace UnitTests
     public class UnitTest1
     {
         [Fact]
-        public void Add_WorksWithTwoPositiveIntegers()
+        public void Mod_WorksWithTwoPositiveIntegers()
         {
             var expected = 0;
             var a = 2;
@@ -16,7 +16,7 @@ namespace UnitTests
         }
 
         [Fact]
-        public void Add_WorksWithTwoNegativeIntegers()
+        public void Mod_WorksWithTwoNegativeIntegers()
         {
             var expected = -1;
             var a = -5;
@@ -39,7 +39,7 @@ namespace UnitTests
         [InlineData(0, 2, 2)]
         [InlineData(-2, -7, -5)]
         [InlineData(0, 2, -2)]
-        public void Add_WorksWithManyInputs(int exp, int n1, int n2)
+        public void Mod_WorksWithManyInputs(int exp, int n1, int n2)
         {
             Assert.Equal(exp, Mod(n1, n2));
         }
@@ -57,5 +57,6 @@ namespace UnitTests
         {
             return value % 2 == 1;
         }
+
     }
 }

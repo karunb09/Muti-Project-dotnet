@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-
-    <IsPackable>true</IsPackable>
+    <IsPackable>false</IsPackable>
+ 	  <IsTestProject>true</IsTestProject>
   </PropertyGroup>
 
-   <ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="2.2.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
@@ -18,15 +18,8 @@
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />  
   </ItemGroup>
 
-   <ItemGroup>
-     <ProjectReference Include="..\..\src\Web\Web.csproj" />
-   </ItemGroup>
-
-   <ItemGroup>
-     <Reference Include="Web.Views">
-       <HintPath>..\..\src\Web\obj\Debug\netcoreapp2.2\Web.Views.dll</HintPath>
-     </Reference>
-   </ItemGroup>
-
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Web\Web.csproj" />
+  </ItemGroup>
 
 </Project>
